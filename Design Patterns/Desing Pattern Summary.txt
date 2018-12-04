@@ -15,3 +15,4 @@ class.
 life example could be a case of card reader which acts as an adapter between memory card and a laptop
 7.)Bridge:Bridge is used when we need to decouple an abstraction from its implementation so that two can vary independently
 8.)Composite patterns composes objects in term of a tree structure to represent part as well as whole hierarchy. This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
+9.)Decorator pattern, this pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact
