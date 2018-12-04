@@ -16,3 +16,4 @@ life example could be a case of card reader which acts as an adapter between mem
 7.)Bridge:Bridge is used when we need to decouple an abstraction from its implementation so that two can vary independently
 8.)Composite patterns composes objects in term of a tree structure to represent part as well as whole hierarchy. This pattern creates a class that contains group of its own objects. This class provides ways to modify its group of same objects.
 9.)Decorator pattern, this pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact
+10.)Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing classes
