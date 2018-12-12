@@ -1,0 +1,43 @@
+- Basic concepts of OOPS
+    Abstraction
+	Encapsulation
+	Inheritance
+	Polymorphism
+-What is Abstraction	
+	Abstraction is a process of hiding the implementation details and showing only functionality to the user. It only indicates important things to the user
+	and hides the internal details While sending SMS, you just type the text and send the message. Here you do not care about the internal processing of the
+	message delivery. Abstraction can be achieved using abstract class and abstract method in Java.
+- What is Encapsulation
+	Encapsulation is the process of combining data and and functions into a single unit called class. In Encapsulation, the data is not accessed directly; it
+	is accessed through the functions present inside the class. In simple words, attributes of the class are kept private and public getter and setter methods
+	are provided to manipulate these attributes. Thus, encapsulation makes the concept of data hiding possible.
+- What is Polymorphism
+    Polymorphism describes a pattern in object priented programming in which classes hava different functionality while sharing a common interface. The beauty
+	of polymorphism is that the code working with different classes does not need to know which class it is using since they are all used the same way.
+- What are Inheritance
+    In object oriented programming, inheritance enables new objects to take on the properties of existing objects. A class that is used as the basis for inheritance
+	is called a superclass or base class. A class that inherits from a superclass is called a subclass or derived class.
+- What are manipulators
+	Manipulators are the functions which can be used in conjunction with the insertion and extraction operators on an object. Examples are endl and setw.
+- The Inline function
+	The inline functions are a C++ enhancement feature to increase the execution time of a program. Functions can be instructed to compiler to make them inline so that
+	compiler can replace those function definition wherever those are being called. Compiler replaces the definition of inline functions at compile time instead of referring
+	function definition at runtime.
+-Static vs Dynamic Polymorphism
+	-Static binding/Compile-Time binding/Early binding/Method overloading
+	-Dynamic binding/Run-Time binding/Late binding/Method overriding
+	Dynamic or run time polymorphism is also known as method overriding in which call to an overridden function is resolved run time, not at the compile time. It means having 
+	two or more methods with then same name, same signature but with different implementation.
+-What is static and dynamic binding/Compile-Time
+	-Static binding in Java occurs during compile time while dynamic binding occurs during runtime.
+	-Private, final and static methods and variables use static binding and are bonded by compiler while virtual methods are bonded during runtime based upon runtime object.
+	-Static binding uses Type(class in Java) information for binding while dynamic binding uses object to resolve binding.
+	-Overload methods are bonded useing static binding while overridden methods are bonded useing dynamic binding at runtime.
+-What is a copy constructor
+	-This is a special constructor for creating a new object as a copy of an existing object. There will be always only on copy constructor that can be either defined by the user or the system.
+-Difference between structure and class
+	-Structure default access type is public, but class access type is private A structure is used for grouping data whereas class can be used for grouping data and methods. Structures are exclusively
+	used for data and it doesn't require strict validation, but classes are used to encapsulates and inherit data which requires strict validation.
+
+	
+	
